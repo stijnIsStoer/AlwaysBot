@@ -30,7 +30,7 @@ bot.on("message", async message => {
 
     if( command === `${prefix}help`){
 
-        return message.channel.send("!ticket - maak een ticket\n&help - toon dit bericht");
+        return message.channel.send("!ticket - maak een ticket\n!help - toon dit bericht");
 
     }    
 
